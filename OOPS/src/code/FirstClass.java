@@ -18,24 +18,24 @@ class Employee {
 public class FirstClass {
     public static void main(String[] args) {
         System.out.println("This is our custom class");
-        Employee eName = new Employee(); // Instantiating a new Employee Object
+        Employee emp = new Employee(); // Instantiating a new Employee Object
         int salary;
-        // Setting Attributes for name
-        eName.id = 12;
-        eName.salary = 34;
-        eName.name = "Faraz";
+        // Setting Attributes for emp
+        emp.id = 12;
+        emp.salary = 34;
+        emp.name = "Faraz";
         // Printing the Attributes
-        eName.printDetails();
-        salary = eName.getSalary();
+        emp.printDetails();
+        salary = emp.getSalary();
         System.out.println(" and My Salary is " + salary + "K.");
 
-        // Setting Attributes for John
-        eName.id = 17;
-        eName.salary = 32;
-        eName.name = "Arisha";
+        // Setting Attributes for emp
+        emp.id = 17;
+        emp.salary = 32;
+        emp.name = "Arisha";
         // Printing the Attributes
-        eName.printDetails();
-        salary = eName.getSalary();
+        emp.printDetails();
+        salary = emp.getSalary();
         System.out.println(" and My Salary is " + salary + "K.");
 
     }

@@ -1,7 +1,5 @@
 package code;
 
-import java.util.jar.Attributes.Name;
-
 class Employee1 {
     int salary;
     String name;

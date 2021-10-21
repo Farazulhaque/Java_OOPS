@@ -21,7 +21,7 @@ class Game {
 
     }
 
-    public void getUserInput() {
+    public void takeUserInput() {
         System.out.print("Guess a number: ");
         int userGuess = sc.nextInt();
         noOfGuesses += 1;
@@ -38,14 +38,13 @@ class Game {
         } else if (userGuess > randomNumber) {
             System.out.println("Your guess is too high...");
         }
-        getUserInput();
+        takeUserInput();
     }
-
 }
 
 public class GuessNumberGame {
     public static void main(String[] args) {
         Game gm = new Game();
-        gm.getUserInput();
+        gm.takeUserInput();
     }
 }

@@ -1,4 +1,4 @@
-package com.company;
+package code;
 
 abstract class Parent2 {
     public Parent2() {

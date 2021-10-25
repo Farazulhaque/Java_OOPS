@@ -41,17 +41,17 @@ class AvonCycle implements Bicycle, HornBicycle {
 
 public class Interface {
     public static void main(String[] args) {
-        AvonCycle cycleHarry = new AvonCycle();
-        cycleHarry.applyBrake(1);
+        AvonCycle cycle = new AvonCycle();
+        cycle.applyBrake(1);
         // You can create properties in Interfaces
-        System.out.println(cycleHarry.a);
-        System.out.println(cycleHarry.x);
+        System.out.println(cycle.a);
+        System.out.println(cycle.x);
 
         // You cannot modify the properties in Interfaces as they are final
-        // cycleHarry.a = 454;
-        // System.out.println(cycleHarry.a);
+        // cycle.a = 454;
+        // System.out.println(cycle.a);
 
-        cycleHarry.blowHornK3g();
-        cycleHarry.blowHornmhn();
+        cycle.blowHornK3g();
+        cycle.blowHornmhn();
     }
 }
